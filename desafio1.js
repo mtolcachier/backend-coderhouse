@@ -4,6 +4,11 @@ class ProductManager {
         this.products = [];
     }
 
+    getProducts = () => {
+        console.log(this.products);
+        return;
+    }
+
     addProduct = (title, description, price, thumbnail, code, stock, productCode) => {
 
         const product = {
@@ -17,22 +22,16 @@ class ProductManager {
         }
 
         if (!product.title || !product.description || !product.price || !product.thumbnail || !product.code || !product.stock) {
-            console.log("please submit all the categories: title, description, price, thumbnail, code, stock");
-            return
-        }
-
-        const productIndex = this.products.indexOf((product) => product.code === productCode);
-        if(productIndex >= 0 ) {
-            console.log(`The product code ${productCode} already exists`);
+            console.log("Error: all fields are required");
             return;
         }
 
-        this.products.push(product)
-    }
+        if (this.products.some(p => p.code === productCode)) {
+            console.log("Error: The product code already exists");
+            return;
+        }
 
-    getProducts = () => {
-        console.log(this.products);
-        return
+        this.products.push(product);
     }
 
     getProductByID = (productId) => {
@@ -48,10 +47,11 @@ class ProductManager {
 
 const productManager = new ProductManager();
 
-console.log(productManager.addProduct("hola","a","b",64654,"d",10,8));
+console.log(productManager.addProduct("hola",10,8));
 console.log(productManager.addProduct("hola","a","b",15,"d",20,17));
+console.log(productManager.addProduct("hola","a","b",15,"d",1,17));
 
 console.log(productManager.getProducts());
 
-console.log(productManager.getProductByID(2));
-console.log(productManager.getProductByID(20));
+console.log(productManager.getProductByID(1));
+console.log(productManager.getProductByID(15));
