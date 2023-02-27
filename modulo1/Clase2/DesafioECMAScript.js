@@ -1,3 +1,5 @@
+//HOMEWORK FOR 2ND CLASS
+
 class ProductManager {
 
     constructor() {
@@ -9,7 +11,7 @@ class ProductManager {
         return;
     }
 
-    addProduct = (title, description, price, thumbnail, code, stock, productCode) => {
+    addProduct = (title, description, price, thumbnail, code, stock) => {
 
         const product = {
             id: this.products.length + 1,
@@ -26,7 +28,7 @@ class ProductManager {
             return;
         }
 
-        if (this.products.some(p => p.code === productCode)) {
+        if (this.products.some(p => p.code === code)) {
             console.log("Error: The product code already exists");
             return;
         }
@@ -34,8 +36,8 @@ class ProductManager {
         this.products.push(product);
     }
 
-    getProductByID = (productId) => {
-        const findProduct = this.products.find((product) => product.id === productId);
+    getProductByID = (code) => {
+        const findProduct = this.products.find((product) => product.code === code);
         if (!findProduct) {
             console.log("error: Not Found");
             return;
@@ -47,11 +49,9 @@ class ProductManager {
 
 const productManager = new ProductManager();
 
-console.log(productManager.addProduct("hola",10,8));
-console.log(productManager.addProduct("hola","a","b",15,"d",20,17));
-console.log(productManager.addProduct("hola","a","b",15,"d",1,17));
-
 console.log(productManager.getProducts());
+console.log(productManager.addProduct("producto prueba","Este es un producto prueba",200,"sin imagen","abc123",25));
+console.log(productManager.getProducts());
+console.log(productManager.addProduct("producto prueba","Este es un producto prueba",200,"sin imagen","abc123",25));
+console.log(productManager.getProductByID("abc123"));
 
-console.log(productManager.getProductByID(1));
-console.log(productManager.getProductByID(15));
