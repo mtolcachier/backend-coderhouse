@@ -56,7 +56,7 @@ export default class ProductManager {
     updateProduct = async (code, key, value) => {
         const products = await this.getProducts();
         let productCheck = products.find((p) => p.code === code) ;
-        let checkKey = key in products ? true : false;
+        let checkKey = productCheck[key] && key != "id" ? true : false;
         if (productCheck && checkKey === true) {
             const index = products.findIndex((product) => product.code === code);
             products[index][key] = value;

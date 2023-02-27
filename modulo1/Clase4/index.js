@@ -40,8 +40,8 @@ const env = async () => {
     let searchById = await productManager.getProductByID("abc123");
     console.log(searchById);
     
-
-    let toUpdate = await productManager.updateProduct("abc123","thumbnail","searching");
+    
+    let toUpdate = await productManager.updateProduct("abc123","thumbnail","como estas");
     console.log(toUpdate);
     
     let deleteItem = await productManager.deleteProduct("def666");
