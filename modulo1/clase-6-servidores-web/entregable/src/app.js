@@ -4,23 +4,19 @@ import express, {urlencoded} from 'express' ;
 const productManager = new ProductManager('./Products.json');
 
 const app = express();
-app.use(express.urlencoded({extended:true}))
 app.use(express.json());
-
+app.use(express.urlencoded({extended:true}))
 
 app.get('/products', async (req,res)=> {
     try {
         const products = await productManager.getProducts();
         const limit = req.query.limit;
-        if (limit > 0 && limit <= 10) {
+        if (limit) {
             const limitedProds = products.slice(0,limit);
             res.send({products: limitedProds});
-        } else if (limit <= 0 || limit > 10){
-            res.send({eror: `We couldn't fulfill your request. Please check the submited information.`});
         } else {
             res.send({products: products});
         }
-
     } catch (error) {
         console.error(error)
     }
