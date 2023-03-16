@@ -49,7 +49,7 @@ export default class ProductManager {
         }
 }
 
-    getProductByID = async (id) => {
+    getProductById = async (id) => {
 
         const products = await this.getProducts();
         const findProduct = products.findIndex((product) => product.id === id);

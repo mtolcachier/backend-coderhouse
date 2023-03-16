@@ -8,7 +8,7 @@ const productManager = new ProductManager();
 
 router.get('/:cid', async (req,res) => {
     const cartId = parseInt(req.params.cid);
-    const cart = await cartManager.getCartByID(cartId)
+    const cart = await cartManager.getCartById(cartId)
 
     if (isNaN(cartId)) {
         return res.status(400).send({
@@ -44,7 +44,7 @@ router.post('/:cid/product/:pid', async (req,res) => {
     const cartId = parseInt(req.params.cid);
     const prodId = parseInt(req.params.pid);
     const cart = await cartManager.getCartById(cartId);
-    const product = await productManager.getProductByID(prodId);
+    const product = await productManager.getProductById(prodId);
 
 
     if (isNaN(cartId) || cartId <= 0) {

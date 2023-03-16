@@ -40,7 +40,7 @@ router.get('/:pid', async (req,res)=> {
     try {
         const productId = req.params.pid;
         const numId = parseInt(productId)
-        const product = await productManager.getProductByID(numId);
+        const product = await productManager.getProductById(numId);
 
         if (numId <= 0 || isNaN(numId)) {
             return res.status(404).send({
@@ -113,7 +113,7 @@ router.post('/',uploader.array('thumbnails'), async (req,res) => {
 router.put('/:pid',uploader.array('thumbnails'), async (req,res) => {
     const productId = parseInt(req.params.pid);
     const update = req.body;
-    const product = await productManager.getProductByID(productId);
+    const product = await productManager.getProductById(productId);
 
     const keys = ['title','description','code','price','stock','category','thumbnails'];
 
@@ -162,7 +162,7 @@ router.put('/:pid',uploader.array('thumbnails'), async (req,res) => {
 
 router.delete('/:pid', async (req,res) => {
     const prodId = parseInt(req.params.pid);
-    const product = await productManager.getProductByID(prodId);
+    const product = await productManager.getProductById(prodId);
     const deleted = await productManager.deleteProduct(prodId);
 
     if (isNaN(prodId) || prodId <= 0) {
