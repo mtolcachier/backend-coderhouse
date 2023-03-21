@@ -1,0 +1,50 @@
+<div>
+    <h1>Real Time Products</h1>
+    <hr/>
+    <h3>Create a new product</h3>
+    <form action="" id="create-product-form" enctype="multipart/form-data">
+        <div>
+            <label for="title">Title:</label>
+            <input type="text" id="addTitle" name="title" required>
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            <textarea id="addDescription" name="description" required></textarea>
+        </div>
+        <div>
+            <label for="code">Code:</label>
+            <input type="text" id="addCode" name="code" required>
+        </div>
+        <div>
+            <label for="price">Price:</label>
+            <input type="number" id="addPrice" name="price" required>
+        </div>
+        <div>
+            <label for="stock">Stock:</label>
+            <input type="number" id="addStock" name="stock" required>
+        </div>
+        <div>
+            <label for="category">Category:</label>
+            <input type="text" id="addCategory" name="category" required>
+        </div>
+        <div>
+            <label for="thumbnails">Thumbnails:</label>
+            <input type="file" id="addThumbnails" name="thumbnails[]" multiple />
+        </div>
+        <button type="submit">Create Product</button>
+    </form>
+    <hr/>
+    <h3>Delete a product</h3>
+    <form action="" id="delete-product-form" enctype="multipart/form-data">
+        <div>
+            <label for="id">Product Id:</label>
+            <input type="text" id="deleteId" name="id" required>
+        </div>
+        <button type="submit">Delete Product</button>
+    </form>
+    <hr/>
+    <h3>All of our products</h3>
+    <div id="productList"></div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTimeProducts.js"></script>

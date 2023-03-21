@@ -1,4 +1,4 @@
-// npm i -y
+// npm init -y
 // npm i nodemon -D
 // npm i express
 // modificar los scripts del package.json --> "start:dev": "nodemon ./src/app.js"
