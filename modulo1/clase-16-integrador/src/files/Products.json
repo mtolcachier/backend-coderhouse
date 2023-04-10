@@ -1,0 +1,130 @@
+[
+	{
+		"title": "producto prueba 2",
+		"description": "Este es un producto prueba dos",
+		"price": 200,
+		"thumbnails": [],
+		"code": "203",
+		"stock": 25,
+		"id": 2
+	},
+	{
+		"title": "producto prueba 4",
+		"description": "Este es un producto prueba cuatro",
+		"price": 89,
+		"thumbnails": [],
+		"code": "904",
+		"stock": 19,
+		"id": 4
+	},
+	{
+		"title": "producto prueba 5",
+		"description": "Este es un producto prueba cinco",
+		"price": 75,
+		"thumbnails": [],
+		"code": "456",
+		"stock": 15,
+		"id": 5
+	},
+	{
+		"title": "producto prueba 6",
+		"description": "Este es un producto prueba seis",
+		"price": 85,
+		"thumbnails": [],
+		"code": "634",
+		"stock": 30,
+		"id": 6
+	},
+	{
+		"title": "producto prueba 7",
+		"description": "Este es un producto prueba siete",
+		"price": 45,
+		"thumbnails": [],
+		"code": "817",
+		"stock": 15,
+		"id": 7
+	},
+	{
+		"title": "producto prueba 8",
+		"description": "Este es un producto prueba ocho",
+		"price": 65,
+		"thumbnails": [],
+		"code": "589",
+		"stock": 10,
+		"id": 8
+	},
+	{
+		"title": "producto prueba 9",
+		"description": "Este es un producto prueba nueve",
+		"price": 50,
+		"thumbnails": [],
+		"code": "364",
+		"stock": 23,
+		"id": 9
+	},
+	{
+		"title": "producto prueba 10",
+		"description": "Este es un producto prueba diez",
+		"price": 180,
+		"thumbnails": [],
+		"code": "107",
+		"stock": 7,
+		"id": 10
+	},
+	{
+		"status": true,
+		"title": "prueba con postman",
+		"stock": 9,
+		"description": "prueba",
+		"code": "aaa333",
+		"price": 49,
+		"thumbnails": [],
+		"category": "postman",
+		"id": 11
+	},
+	{
+		"status": true,
+		"title": "prueba con postman 2",
+		"stock": 13,
+		"description": "prueba 2",
+		"code": "f5",
+		"price": 50,
+		"category": "postman 2",
+		"thumbnails": [
+			"http://localhost:8080/images/abel.jpg"
+		],
+		"id": 12
+	},
+	{
+		"status": true,
+		"title": "prueba con postman 3",
+		"description": "prueba 3",
+		"code": "alt",
+		"price": 50,
+		"stock": 1,
+		"category": "postman 3",
+		"thumbnails": [],
+		"id": 13
+	},
+	{
+		"status": true,
+		"title": "prueba con websocket",
+		"description": "prueba websocket",
+		"code": "jaja",
+		"price": 13,
+		"stock": 1,
+		"category": "websocket",
+		"thumbnails": [],
+		"id": 14
+	},
+	{
+		"status": true,
+		"title": "test",
+		"description": "test",
+		"price": "5",
+		"code": "test",
+		"stock": "5",
+		"category": "test",
+		"id": 15
+	}
+]
