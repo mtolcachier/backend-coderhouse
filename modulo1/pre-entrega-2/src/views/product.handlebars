@@ -1,0 +1,16 @@
+<div>
+    <div>
+        {{#if this.thumbnails.length}}
+            {{#each thumbnails}}
+            <p>Thumbnails:</p>
+                <img src="{{this.thumbnails}}" width="100px"/>
+            {{/each}}
+            {{/if}}
+            <p>title: {{this.title}} </p>
+            <span>id: {{this._id}} </span>
+            <p>price: {{this.price}}</p>
+            <p>code: {{this.code}} </p>
+            <p>category: {{this.category}} </p>
+            <p>description: {{this.description}} </p>
+    </div>
+</div>

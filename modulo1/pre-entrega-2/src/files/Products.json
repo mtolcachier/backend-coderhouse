@@ -1,0 +1,112 @@
+[
+	{
+		"title": "Un Matecito Acero",
+		"description": "Mate de Acero Inoxidable. - Producto extra-higiénico. - Doble capa de acero (hace que no se caliente en la mano). - Medidas: 8cm x 8cm. - Capacidad: 25grs",
+		"code": "2879846",
+		"price": 7000,
+		"stock": 25,
+		"category": "mate de acero",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_2X_733159-MLA48550789161_122021-F.webp", "https://http2.mlstatic.com/D_NQ_NP_2X_844520-MLA48599057437_122021-F.webp"],
+		"status": true
+	},
+	{
+		"title": "Un Re Mate De Acero",
+		"description": "Mate de Acero Inoxidable. - Producto extra-higiénico. - Doble capa de acero (hace que no se caliente en la mano). - Capacidad: 40 grs yerba o 160ml. - Medidas: 9cm altura x 8cm diametro",
+		"code": "498452",
+		"price": 8450,
+		"stock": 16,
+		"category": "mate de acero",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_2X_954611-MLA46825959890_072021-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_812658-MLA47857749097_102021-F.webp"],
+		"status": true
+	},
+	{
+		"title": "Un Mate - Perla White",
+		"description": "Acero Inoxidable, Posta. - Doble Capa de Acero / Vacuum Insulated - Resistente a golpes - Térmico (mantiene la temperatura toda la cebada) - Forma Ergonómica - Base de Silicona - Capacidad: 230ml - Altura: 9cm - Diametro Superior: 9,5cm - Base: 7cm - Apto para Alimentos / Libre BPA - Aprobado por INAL",
+		"code": "879253",
+		"price": 9650,
+		"stock": 30,
+		"category": "mate de acero",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_2X_962921-MLA49151423518_022022-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_707362-MLA49201438820_022022-F.webp"],
+		"status": true
+	},
+	{
+		"title": "Una Re Mochila Matera - Black",
+		"description": "Una Re Mochila Matera: Mochila de Cordura® Impermeable.; -Separador Polex con tecnología anti-impacto para: Termo | Bombilla | Mate y Yerbera. -Bolsillo de Polex PortaNotebook 15” con tecnología anti-impacto -Bolsillo lateral -Bolsillo Frontal de Polex con tecnología anti-impacto -Medidas: 39cm x 29cm x 15cm -Entra termo Stanley de hasta 1,4 litros. -No apta lavarropas -Cierres YKK",
+		"code": "316665",
+		"price": 29900,
+		"stock": 20,
+		"category": "matero",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_2X_787161-MLA47340629815_092021-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_804463-MLA47340748224_092021-F.webp"],
+		"status": true
+	},
+	{
+		"title": "Termo Acero Inoxidable Coleman - 700ml Negro",
+		"description": "Termo Coleman (700ml). - Acero Inoxidable 18/8. - 25hs bebidas calientes. - 48hs bebidas frías. - A prueba de derrames. - Pico Matero Cebador 360 grados - Ideal para mates. -Medidas: - Altura total con vaso: 28,7 cm. - Base:7,3cm",
+		"code": 5649876,
+		"price": 26500,
+		"stock": 15,
+		"category": "termo",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_2X_718715-MLA42447910575_072020-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_920471-MLA42447866977_072020-F.webp"],
+		"status": true
+	},
+	{
+		"title": "Bombilla Un Mate - Acero Inoxidable",
+		"description": "Bombilla de Acero Inoxidable. - Producto 100% artesanal. - Acero Inoxidable 18/8. - Chata. - No se tapa. - Largo: 17cm",
+		"code": "669746",
+		"price": 2750,
+		"stock": 14,
+		"category": "bombilla de acero",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_2X_828303-MLA42447799440_072020-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_807852-MLA47872748439_102021-F.webp"],
+		"status": true
+	},
+	{
+		"title": "Mates Uruguayos Torpedo Borravino",
+		"description": "-Mate Torpedo, sencillo y armonioso. El corte justo en el cuello de la calabaza, garantiza una mejor conservación de la temperatura y requiere de un cebado preciso. Medidas: -Chico: 10cms de alto x Ø 6 cms ancho -Mediano: 11 cms de alto x Ø 7 cms de ancho -Grande: 12 cms de alto x Ø 8 cms de ancho",
+		"code": "98733",
+		"price": 9300,
+		"stock": 35,
+		"category": "mate de calabaza",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_835296-MLA49336221309_032022-O.webp","https://http2.mlstatic.com/D_NQ_NP_668681-MLA49335070659_032022-O.webp"],
+		"status": true
+	},
+	{
+		"title": "Mate Imperial Cuero Virola Alpaca",
+		"description": "*Al ser mates realmente artesanales de calidad, no hay dos iguales, tanto en los tamaños como en los colores. - Bombilla de Alpaca de alta calidad y diseño, Pico de Loro. - Cuero 100% Vacuno y forrado en calabaza Natural de alto grosor, excelentes terminaciones. Base de 4 patas firmes. - Virola de alpaca labrada.", 
+		"code": "668213",
+		"price": 10500,
+		"stock": 20,
+		"category": "mate de calabaza",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_702437-MLA48733352973_012022-O.webp","https://http2.mlstatic.com/D_NQ_NP_2X_791285-MLA46888889943_072021-F.webp"],
+		"status": true
+	},
+	{
+		"title": "YERBERO LONA IMPERMEABLE -300 GRS CAPACIDAD",
+		"description": "Yerbag. - Lona 100% algodón (Cotton Canvas). - Impermeable, anti manchas, anti hongos , colorante de alta resistencia a la luz y al lavado. Apto lavaropas. - Cierre engomado impermeable. - Costuras de alta tenacidad. - Industria Nacional. - Medidas: Volumen: 930cm3 / Capacidad: 300grs / Alto: 15cm / Diámetro: 9cm",
+		"code": "32664",
+		"price": 3100,
+		"stock": 25,
+		"category": "yerbero",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_2X_708928-MLA52344667841_112022-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_917309-MLA52344870350_112022-F.webp"],
+		"status": true
+	},
+	{
+		"title": "TERMO COLEMAN LEAK PROOF 1.2 L",
+		"description": "Termo Coleman Leak Proof. - Construido en Acero Inoxidable 18/8 de triple capa y aislamiento al vacío. - Libre de BPA. - Pico Matero 360º. - Tapa/Vaso Térmico y la base de goma permite un apoyo firme y suave, evitando el deterioro con el uso. - Capa Texturada que proporciona un agarre firme y protege la unidad de rayones o malos tratos. - Su rango de conservación de calor es de 24 hs. - Su rango de Conservación de frio es de 50 hs. - Altura total con vaso: 32,5cm. - Medida de la base: 8,8cm.",
+		"code": "321656",
+		"price": 3300,
+		"stock": 10,
+		"category": "termo",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_2X_908853-MLA54837023057_042023-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_633824-MLA54844789257_042023-F.webp"],
+		"status": true
+	},
+	{
+		"title": "BOMBILLA MATTE LARGE DE ACERO INOXIDABLE CON RESORTE",
+		"description": "Nueva Bombilla Matte Large. - Realizada íntegramente en Acero Inoxidable 304. - Un resorte desarmable facilita su limpieza. - No contamina la infusión. - Extra higiénica y de fácil lavado. - La compañía perfecta. - Medidas: Altura: 17 cm Ancho de la boca: 1 cm",
+		"code": "987653",
+		"price": 2600,
+		"stock": 10,
+		"category": "bombilla",
+		"thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_2X_696835-MLA53158612307_012023-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_641593-MLA51266184018_082022-F.webp"],
+		"status": true
+	}
+]
